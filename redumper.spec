@@ -2,14 +2,13 @@
 %global toolchain clang
 
 Name:           redumper
-Version:        b738
+Version:        b739
 Release:        %autorelease
 Summary:        Low level CD dumper utility
 
 License:        GPL-3.0-only
 URL:            https://github.com/superg/redumper
 Source0:        https://github.com/superg/redumper/archive/%{version}/redumper-%{version}.tar.gz
-Patch0:         https://github.com/superg/redumper/commit/66842c96578102f140d72e464966d3cf0be12a2c.patch
 
 BuildRequires:  cmake
 BuildRequires:  clang
