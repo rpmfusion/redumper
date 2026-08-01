@@ -25,7 +25,7 @@ redumper is also a general purpose DVD/HD-DVD/Blu-ray disc dumper.
 %autosetup -p1
 
 %build
-%cmake -DREDUMPER_VERSION_BUILD=%{version}%{?dist} -DREDUMPER_LINKER_FLAGS=
+%cmake -DREDUMPER_VERSION_BUILD=%{version} -DREDUMPER_LINKER_FLAGS=
 %cmake_build
 
 %install
