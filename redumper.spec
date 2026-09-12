@@ -2,7 +2,7 @@
 %global toolchain clang
 
 Name:           redumper
-Version:        b750
+Version:        b751
 Release:        %autorelease
 Summary:        Low level CD dumper utility
 
