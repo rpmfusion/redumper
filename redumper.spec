@@ -15,11 +15,11 @@ BuildRequires:  clang
 BuildRequires:  cmake(GTest)
 
 %description
-redumper is a low-level byte-perfect CD disc dumper. It supports incremental
-dumps, advanced SCSI/C2 repair, intelligent audio CD offset detection and a lot
-of other features.
-
-redumper is also a general purpose DVD/HD-DVD/Blu-ray disc dumper.
+redumper is a cross-platform command-line tool for creating accurate optical
+disc dumps. It provides a low-level, byte-perfect workflow for CDs, including
+incremental refinement, SCSI/C2 error recovery, raw subchannel preservation,
+and automatic audio-offset detection. It also supports dumping of DVD, HD DVD,
+and Blu-ray media.
 
 %prep
 %autosetup -p1
